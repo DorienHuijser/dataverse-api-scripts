@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Dataverse API scripts
+message: >-
+  Scripts to upload data to Dataverse, retrieve information
+  about datasets and deaccession datasets in Harvard
+  Dataverse with Python and requests
+type: software
+authors:
+  - given-names: Dorien
+    family-names: Huijser
+    affiliation: Utrecht University
+    orcid: 'https://orcid.org/0000-0003-3282-8083'
+repository-code: 'https://github.com/DorienHuijser/dataverse-api-scripts'
+abstract: >
+  This repository currently contains 2 Jupyter notebooks
+  that interact with the Harvard Dataverse Native API using
+  Python and the requests module. One generates
+  Dataverse-compliant metadata and creates new datasets in a
+  specified dataverse. The other retrieves DOIs, dataset IDs
+  and file IDs, attempts to restrict the file IDs, publishes
+  a new version of the dataset, and deaccessions v1.0 of the
+  dataset. The file restriction does not work due to (I
+  think!) a limitation in the Dataverse API.
+keywords:
+  - dataverse
+  - research data management
+  - application programming interface
+  - api
+  - dataverseNL
+license: GPL-3.0
