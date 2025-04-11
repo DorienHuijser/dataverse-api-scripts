@@ -1,0 +1,337 @@
+{
+  "datasetVersion": {
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Title"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": ""
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": ["Alternative Title"]
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": ""
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "OtherIDAgency1"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "OtherIDIdentifier1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LastAuthor1, FirstAuthor1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LastContact1, FirstContact1"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ContactAffiliation1"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ContactEmail1@mailinator.com"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DescriptionText1"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1000-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Agricultural Sciences",
+              "Business and Management",
+              "Engineering",
+              "Law"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Notes1"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Abkhaz",
+              "Afar"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": ""
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [""]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "LastDepositor, FirstDepositor"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1002-01-01"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "KindOfData1",
+              "KindOfData2"
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+            ]
+          },
+          {
+            "typeName": "otherReferences",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "OtherReferences1",
+              "OtherReferences2"
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "fields": [
+          {
+            "typeName": "universe",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Universe1",
+              "Universe2"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "a country"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "journal": {
+        "displayName": "Journal Metadata",
+        "fields": [
+          {
+            "typeName": "journalVolumeIssue",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "journalVolume": {
+                  "typeName": "journalVolume",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "JournalVolume1"
+                },
+                "journalIssue": {
+                  "typeName": "journalIssue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "JournalIssue1"
+                },
+                "journalPubDate": {
+                  "typeName": "journalPubDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1008-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "journalArticleType",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "abstract"
+          }
+        ]
+      }
+    }
+  }
+}
