@@ -1,5 +1,7 @@
 # Dataverse API scripts
 
+[![DOI](https://zenodo.org/badge/964625618.svg)](https://doi.org/10.5281/zenodo.15198786)
+
 This repository currently contains 2 Jupyter notebooks that interact with the Harvard Dataverse Native API.
 
 - The script in `upload_papers_GenO` generates Dataverse-compliant metadata and creates new datasets in a specified dataverse.
